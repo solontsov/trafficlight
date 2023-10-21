@@ -1,0 +1,31 @@
+.lightBox {
+    border: 8px solid black;
+    display: inline-block;
+    border-radius: 15px;
+
+    background-color: rgb(170, 164, 164);
+}
+
+.light {
+    margin: 5px;
+    border: 6px solid brown;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+}
