@@ -13,7 +13,7 @@ const Light = props => {
 };
 
 Light.propTypes = {
-    
+    lightColor: PropTypes.string,
 };
 
 export default Light;

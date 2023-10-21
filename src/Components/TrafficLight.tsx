@@ -1,12 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useState } from 'react'
 
 import './TrafficLight.css'
 import Light from './Light';
 
 
-const TrafficLight = props => {
+const TrafficLight = () => {
     // Timing of lights in milliseconds
     const red = 5000, yellow = 2000, green = 3000, blink=500
 
@@ -44,8 +43,5 @@ const TrafficLight = props => {
     );
 };
 
-TrafficLight.propTypes = {
-    
-};
 
 export default TrafficLight;
