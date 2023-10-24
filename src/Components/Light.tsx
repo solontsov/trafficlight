@@ -1,10 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+// import React from 'react';
 
 import './TrafficLight.css'
 
-const Light = props => {
-    const className = 'light ' + props.lightColor
+type LightProps = { lightColor: string}
+
+const Light = ({lightColor}: LightProps) => {
+    const className = 'light ' + lightColor
     return (
         <div className={className}>
             
@@ -12,8 +13,5 @@ const Light = props => {
     );
 };
 
-Light.propTypes = {
-    lightColor: PropTypes.string,
-};
 
 export default Light;
