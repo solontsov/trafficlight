@@ -5,9 +5,7 @@ This application was created using template react-ts:
 npm create vite@latest myappname --code --template react-ts
 ```
 
-
 ![Application Screenshot](./images/screen.svg)
-
 
 ## Setup
 
@@ -18,3 +16,8 @@ npm install
 2. Start the application locally
 ```bash
 npm run dev
+```
+
+## Copyright and License
+
+Copyright 2023 Oleksandr Solontsov. Code released under [the MIT License](./LICENSE.txt).
